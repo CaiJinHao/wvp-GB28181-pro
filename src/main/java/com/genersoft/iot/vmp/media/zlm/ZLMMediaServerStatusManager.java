@@ -259,7 +259,8 @@ public class ZLMMediaServerStatusManager {
         }
         param.put("hook.enable","1");
         param.put("hook.on_flow_report","");
-        param.put("hook.on_play",String.format("%s/on_play", hookPrefix));
+        //TODO:改为其他系统的鉴权地址
+//        param.put("hook.on_play",String.format("%s/on_play", hookPrefix));
         param.put("hook.on_http_access","");
         param.put("hook.on_publish", String.format("%s/on_publish", hookPrefix));
         param.put("hook.on_record_ts","");
